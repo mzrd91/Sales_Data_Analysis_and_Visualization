@@ -5,51 +5,25 @@
 
 The sales data used in this project is obtained from [Kaggle](https://www.kaggle.com/). You can find the dataset [here](data/sales_data.csv).
 
-## Setup Instructions
+Install the requirements here:
+
+''' pip install -r docs/requirements.txt '''
+
 
 ### Requirements
 
-- Python 3.x
+- Python
+- SQL
 - R
 - Required Python packages (listed in `docs/requirements.txt`)
 - Required R packages (installed via the R script)
-
-### Installation
-
-1. **Clone the repository**:
-    ```sh
-    git clone https://github.com/yourusername/Sales_Data_Analysis_and_Visualization.git
-    cd Sales_Data_Analysis_and_Visualization
-    ```
-
-2. **Create a virtual environment (optional but recommended)**:
-    ```sh
-    python -m venv venv
-    source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
-    ```
-
-3. **Install Python packages**:
-    ```sh
-    pip install -r docs/requirements.txt
-    ```
-
-4. **Install R packages**:
-    Open an R session and run the following commands:
-    ```R
-    install.packages(c("DBI", "RSQLite", "ggplot2"))
-    ```
 
 ## Usage
 
 ### Loading Data
 
-The `load_data.py` script loads the sales data from the CSV file into an SQLite database.
-
-```sh
-python scripts/load_data.py
+Load data here: [sales_data.csv](data/sales_data.csv)() The `load_data.py` script loads the sales data from the CSV file into an SQLite database.
 
 
 
 
-
-pip install -r docs/requirements.txt
