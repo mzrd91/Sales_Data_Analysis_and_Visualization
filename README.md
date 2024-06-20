@@ -1,5 +1,12 @@
 # Sales_Data_Analysis_and_Visualization
 
+## Purpose
+
+The purpose of this repository is to analyze sales data, extract insights, and visualize the results using a combination of Python, SQL, and R.
+
+-  Load data from a CSV file into an SQLite database using Python.
+-  Perform SQL queries on the database to aggregate sales data by category and region.
+-  Use R to visualize the aggregated sales data with bar plots.
 
 ## Data Source
 
